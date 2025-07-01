@@ -11,7 +11,7 @@ export default function SignPdf() {
     setSelectedFile(file);
   };
 
-  const handleSignPdf = async () => {
+  const handleSignPdf = async () => { 
     if (!selectedFile) {
       alert("Выберите PDF-файл");
       return;
