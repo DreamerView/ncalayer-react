@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NcaLayer from "ncalayer-js-client";
 
-export default function SignPdf() {
+export default function SignCms() {
   const [status, setStatus] = useState("Ожидание...");
   const [signedData, setSignedData] = useState("");
   const [selectedFile, setSelectedFile] = useState(null);

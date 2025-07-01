@@ -1,12 +1,12 @@
 import NcaInfo from "./NcaInfo";
-import SignPdf from "./SignPdf";
+import SignCms from "./SignCms";
 
 function App() {
   return(
     <>
       <NcaInfo />
       <hr />
-      <SignPdf/>
+      <SignCms/>
     </>
   );
 }
