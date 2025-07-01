@@ -1,5 +1,5 @@
-import NcaInfo from "./NcaInfo";
-import SignPdf from "./SignPdf";
+import NcaInfo from "./NcaInfo.jsx";
+import SignPdf from "./SignPdf.jsx";
 
 function App() {
   return(
